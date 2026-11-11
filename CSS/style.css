@@ -214,8 +214,9 @@ section {
 }
 
 .article-hero {
-  margin: 0;
-  width: 100%;
+  width: calc(100% - 48px);
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .article-hero img {
@@ -407,6 +408,10 @@ label[for="dark-mode-toggle"]::before {
   .article-hero img {
     height: 55vw;
     min-height: 220px;
+  }
+
+  .article-hero {
+    width: calc(100% - 40px);
   }
 
   .article-hero figcaption {
