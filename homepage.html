@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inside Stories — Online Newspaper</title>
+  
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin&display=swap" rel="stylesheet">
+  <meta name="description" content="News and stories from Elias D.">
+</head>
+
+<body class="homepage">
+
+  <input type="checkbox" id="dark-mode-toggle">
+  <label for="dark-mode-toggle"><span class="visually-hidden">Dark mode</span></label>
+
+  <header>
+   <nav aria-label="Primary navigation">
+   <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">☰</button>
+
+    <div id="nav-links">
+     <a href="homepage.html" aria-current="page">Home</a>
+     <a href="barneyarticle.html">Rat Kills Scientist</a>
+     <a href="fridayeverythingchangedarticle.html">Schoolgirls Change Norms</a>
+     <a href="thirdarticle.html">Gaming Communities</a>
+     <a href="aboutthepaper.html">About The Paper</a>
+    </div>
+    </nav>
+    <h1>Inside Stories</h1>
+  </header>
+
+  <main>
+
+    <section aria-labelledby="latest-articles-heading">
+      <h2 id="latest-articles-heading">Articles</h2>
+      <div class="article-grid">
+
+
+        <article class="article-card">
+          <a href="barneyarticle.html">
+            <img src="images/barneyisland.jpeg" alt="Image for the article about a rat killing a scientist">
+            <h3>Rat Kills Scientist</h3>
+          </a>
+        </article>
+
+        <article class="article-card">
+          <a href="fridayeverythingchangedarticle.html">
+            <img src="images/RuralArea.jpeg" alt="Image for the article about schoolgirls changing social norms">
+            <h3>How a Group of Schoolgirls Changed Social Norms at Their School</h3>
+          </a>
+        </article>
+
+        <article class="article-card">
+          <a href="thirdarticle.html">
+            <img src="images/article-gaming-communities.jpg" alt="Image for the article about gaming communities">
+            <h3>Gaming Communities Connect Players Around the World</h3>
+          </a>
+        </article>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; <i>Inside Stories</i></p>
+  </footer>
+
+  <script src="javascript/script.js" defer></script>
+
+</body>
+</html>
